@@ -26,6 +26,7 @@ else {
 3 -> Среда
 5 -> Пятница
 */
+/*
 Console.Write("Введите номер: ");
 int num = int.Parse(Console.ReadLine());
 if (num==1) Console.WriteLine("Понедельник");
@@ -36,3 +37,12 @@ else if (num==5)Console.WriteLine("Пятница");
 else if (num==6)Console.WriteLine("Суббота");
 else if (num==7)Console.WriteLine("Воскресенье");
 else Console.WriteLine("Такого дня недели не существует:(");
+*/
+//Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа от -N до N.
+int N = int.Parse(Console.ReadLine());
+int M = -N;
+while (M!=N){
+    Console.WriteLine(M);
+    M+=1;
+}
+Console.WriteLine(M);
